@@ -1,0 +1,38 @@
+:root {
+  --black: #181818;
+  --white: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-height: 100vh;
+}
+
+.button__toggle {
+  border: none;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 16px 24px;
+  color: var(--white);
+  border-radius: 0.5em;
+  background-color: var(--black);
+}
+
+.dark__mode {
+  background: var(--black);
+  color: var(--white);
+}
+
+.button__toggle__dark {
+  color: var(--black);
+  background-color: var(--white);
+}
