@@ -80,7 +80,7 @@ label {
 
 .form__error {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.5em 0.5em 0 1em;
   color: var(--danger);
 }
 
@@ -95,7 +95,7 @@ label {
 }
 
 .password__checkbox {
-  margin: 0 0.5em;
+  margin: 0 0.5em 0 1em;
 }
 
 .btn__primary {
