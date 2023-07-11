@@ -37,20 +37,6 @@ label {
   font-size: 1em;
 }
 
-input {
-  width: 100%;
-  padding: 1em;
-  font-size: 1em;
-  box-sizing: border-box;
-  background-color: var(--input-background-color);
-  border: none;
-  border-radius: 2em;
-}
-
-input:focus {
-  outline: none;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -78,10 +64,38 @@ input:focus {
   width: 100%;
 }
 
+.form__input {
+  width: 100%;
+  padding: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+  background-color: var(--input-background-color);
+  border: none;
+  border-radius: 2em;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
 .form__error {
-  display: none;
+  display: inline-block;
   padding: 0.5em 1em;
   color: var(--danger);
+}
+
+.form__error::first-letter {
+  text-transform: capitalize;
+}
+
+.checkbox__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.password__checkbox {
+  margin: 0 0.5em;
 }
 
 .btn__primary {
