@@ -84,10 +84,6 @@ label {
   color: var(--danger);
 }
 
-.form__error::first-letter {
-  text-transform: capitalize;
-}
-
 .checkbox__wrapper {
   width: 100%;
   display: flex;
