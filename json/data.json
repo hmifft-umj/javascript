@@ -1,0 +1,7 @@
+{
+  "nama": "John Doe",
+  "umur": 30,
+  "pekerjaan": "pengembang perangkat lunak",
+  "aktif": true,
+  "hobi": ["musik", "bersepeda"]
+}
